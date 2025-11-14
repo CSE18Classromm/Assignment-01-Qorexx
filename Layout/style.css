@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eee;
+    padding: 40px;
+}
+
+/* All boxes */
+header, nav, section, aside, article, footer {
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 15px;
+    background: white;
+    text-align: center;
+}
+
+/* SECTION + ASIDE row */
+.row {
+    display: flex;
+    gap: 15px;
+    align-items: stretch;  /* ensures both have SAME height */
+}
+
+/* section wider */
+section {
+    flex: 3;
+}
+
+/* aside narrower */
+aside {
+    flex: 1;
+}
